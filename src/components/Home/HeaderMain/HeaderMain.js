@@ -10,26 +10,24 @@ const HeaderMain = () => {
       >
         <div className="content">
           {/* <div className="logo-container"><img src={logo} alt="" /></div> */}
-          <h1 className="text-white fw-bold fs-1 brand">Awesome Solutions</h1>
-          <h1 className="text-white header-heading fw-bold">
-            Help Challenge <br /> Critical Activities
-          </h1>
+          <h2 className="text-white fw-bold fs-1 brand"><span className="text-warning">Awesome</span> Solutions</h2>
+          <h2 className="text-white header-heading fw-bold">
+            Easy To Work  , <span className="text-warning">Faster Service</span>
+          </h2>
           <p className="text-white">
-            We are experienced professionals who understand that IT services are
-            changing, <br /> and are true partners who care about your success
-            and security.
+             We Professionals who understand that IT solutions services. And honestly all service Provide.<br/>Always We Ready Service Provide.
           </p>
-          <button
+          {/* <button
             className="btn me-4 header-button"
-            style={{ color: "white", backgroundColor: "#0092FF" }}
+            style={{ color: "white", backgroundColor: "tomato" }}
           >
             More About Us
-          </button>
+          </button> */}
           <button
             className="btn header-button"
-            style={{ backgroundColor: "white" }}
+            style={{ backgroundColor: "orange" }}
           >
-            Our Services
+            Our Special Services
           </button>
         </div>
       </section>

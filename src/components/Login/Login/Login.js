@@ -112,7 +112,7 @@ function Login() {
       <section className="container">
         <div className="form_container">
           <div className="form_child">
-            <h1 className="fw-bold text-center">
+            <h1 className="fw-bold text-center text-warning">
               {isNewUser ? "SIGNUP" : "LOGIN"}
             </h1>{" "}
             <br />
@@ -147,24 +147,24 @@ function Login() {
                 )}
               </div>
               <br />
-              <button className="btn btn-outline-info w-100" type="submit">
+              <button className="btn btn-outline-danger w-100" type="submit">
                 {isNewUser ? "Sign UP" : "Log In"}
               </button>
             </form>
             <br />
             <h4 className="or" align="center">
-              OR
+              Another Option
             </h4>
             <br />
             <div className="d-flex justify-content-center flex-column align-items-center social_signup">
-              <button onClick={googleAuthHandler} className="btn">
+              <button onClick={googleAuthHandler} className="btn text-warning">
                 Login with Google
               </button>
               <br />
             </div>
             <br />
             <div>
-              <h5 align="center">
+              <h6 align="center">
                 {isNewUser ? "Already Have an Account" : "New User"} ?
                 <b
                   onClick={() => setIsNewUser(!isNewUser)}
@@ -172,7 +172,7 @@ function Login() {
                 >
                   {isNewUser ? " LOGIN" : " SIGNUP"}
                 </b>
-              </h5>
+              </h6>
             </div>
           </div>
         </div>

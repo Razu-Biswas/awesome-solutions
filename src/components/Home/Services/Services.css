@@ -1,7 +1,7 @@
 .card {
   border-radius: 10px;
-  border: 5px solid black;
-  box-shadow: 5px 5px 5px gray;
+  border: px solid orange;
+  box-shadow: 3px 3px 3px gray;
   margin: 30px 10px;
   transition: all 0.2s ease;
 }

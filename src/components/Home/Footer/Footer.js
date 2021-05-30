@@ -19,7 +19,7 @@ const Footer = () => {
             src={repairIcon}
             alt=""
           /> */}
-          Awesome  Solution
+          <span className="text-warning">Awesome</span> <span className="text-danger"> Solution</span>
         </h1>
         <h5 className="text-brand text-white">ADDRESS:</h5>
         <p className="text-white">Dhaka, Bangladesh</p>
@@ -28,7 +28,7 @@ const Footer = () => {
           Friday - Friday: 9:00am - 5:00pm, Saturday: 9:00am - 12:00am
         </p>
         <p className="text-white">
-          Sunday: <span style={{ color: "red" }}>CLOSED</span>
+          Sunday: <span style={{ color: "orange" }}>CLOSED</span>
         </p>
         <h3 className="text-white">
           <FontAwesomeIcon icon={faPhoneAlt} style={{ color: "#319ce3" }} /> 466

@@ -12,7 +12,7 @@ const ServiceCard = ({ service }) => {
           className="text-white text-decoration-none"
           to={`/dashboard/order/${service.id}`}
         >
-          <button className="btn btn-primary">Try This</button>
+          <button className="btn btn-outline-danger">Best Work</button>
         </Link>
       </div>
     </div>

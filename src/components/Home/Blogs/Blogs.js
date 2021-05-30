@@ -31,7 +31,7 @@ const Blogs = () => {
     <section>
       <div className="container my-5">
         <h2 className="text-brand text-center my-5">
-          You can explore your knowledge <br /> with our awesome blogs
+          <span className="text-danger">You can explore</span> your knowledge <br /> with our<span className="text-warning"> awesome blogs</span>
         </h2>
         <div className="row">
           {blogData.map((blog) => (

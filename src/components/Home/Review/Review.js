@@ -28,8 +28,8 @@ const Review = () => {
   return (
     <section className="mt-5 review_card">
       <div className="text-center mb-5 mt-5">
-        <h4 className="text-uppercase">Client Experience Share</h4>
-        <h1 className="text-uppercase">About </h1>
+        <h4 className="text-uppercase"><span className="text-warning">Client Exper</span><span className="text-danger">ience Share</span></h4>
+        <h1 className="text-uppercase text-success">About </h1>
       </div>
       <div className="row mb-5 w-100 p-5">
         {state.length > 0

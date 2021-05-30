@@ -14,7 +14,7 @@ const ReviewCard = ({ review }) => {
                         <div className="p-2 ml-3 d-flex align-items-center" >
                             <h6 className="">{review.name}
                                 <br />
-                                <span className="text-secondary">{review.from}</span>
+                                <span className="text-warning">{review.from}</span>
                             </h6>
                         </div>
                     </div>

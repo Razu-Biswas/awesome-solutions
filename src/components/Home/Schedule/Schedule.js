@@ -8,41 +8,41 @@ const Schedule = () => {
         <div className="col-md-6 d-flex justify-content-center">
           <img
             src={pic}
-            style={{ height: "550px", width: "90%" }}
+            style={{ height: "400px", width: "90%", borderRadius: "10px"}}
             className="mb-5"
             alt=""
           />
         </div>
         <div className="col-md-6 p-4">
-          <p>Improve Efficiency And Provide Better Experiences!</p>
-          <h1>Keep Your Business Safe & Ensure High Availability.</h1>
+          {/* <p>We promised Best Service Provide Better Improved</p> */}
+          <h2><span className="text-danger">Your Company Best Security</span> And <span className="text-warning">Safety Priority</span></h2>
           <div
             className=""
-            style={{
-              width: "90%",
-              marginLeft: "5%",
-              borderLeft: "1px solid #0092FF",
-              padding: "5px",
-              paddingLeft: "5%",
-            }}
+            // style={{
+            //   width: "90%",
+            //   marginLeft: "5%",
+            //   borderLeft: "1px solid orange",
+            //   padding: "5px",
+            //   paddingLeft: "5%",
+            // }}
           >
-            <h5>
+            {/* <h5>
               As one of the world's largest ITService Providers, our deep pool
               of over 130 certified engineers and IT support staff are ready to
               help.
-            </h5>
+            </h5> */}
             <br />
             <p>
-              Provide users with appropriate view and access permissions to
-              requests, problems, changes, contracts, assets, solutions, and
-              reports with our experienced professionals.
+              Provide client with appropriate view and access permissions to
+               problems, contracts, assets, solutions, &&
+              reports with our professionals Job.
             </p>
           </div>
           <br />
-          <div style={{ marginLeft: "5%" }} className="btn btn-primary">
-            Schedule An Appointment
+          <div style={{ marginLeft: "5%" }} className="btn btn-outline-warning">
+          <span className="text-danger"> Connect Our Team</span>
           </div>
-          <div style={{ marginLeft: "5%" }} className="mt-3">
+          {/* <div style={{ marginLeft: "5%" }} className="mt-3">
             <p className="text-secondary">
               Delivered in more than 450,000 client’s interactions
             </p>
@@ -52,7 +52,7 @@ const Schedule = () => {
             <p className="text-secondary">
               Complemented with peer perspectives and advice
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

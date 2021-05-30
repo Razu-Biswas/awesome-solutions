@@ -7,23 +7,24 @@
 .form_child {
   width: 500px;
   height: 500px;
-  border: 5px solid black;
+  border: 1px solid orangered;
+  border-radius: 10px;
   padding: 20px;
   margin: 20px;
 }
 .form_child input {
   border: none;
-  border-bottom: 3px solid lightgray;
+  border-bottom: 1px solid orange;
 }
 .or {
-  color: gray;
+  color: orangered;
 }
 .or::before,
 .or::after {
-  content: " ----------- ";
+  content: " * ";
   flex: 1 1;
   margin: auto;
 }
 .social_signup button {
-  border: 2px solid black !important;
+  border: 1px solid tomato !important;
 }

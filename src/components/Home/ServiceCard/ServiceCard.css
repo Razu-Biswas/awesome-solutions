@@ -3,6 +3,6 @@
 }
 
 .service_card:hover {
-  background-color: lightskyblue;
+  background-color: orange;
   transform: translateY(-10%);
 }

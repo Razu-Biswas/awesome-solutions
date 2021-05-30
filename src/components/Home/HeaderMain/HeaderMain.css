@@ -4,7 +4,7 @@
   transition: border 0.2s ease;
 }
 .brand:hover {
-  border: 3px solid #0092ff;
+  border: 2px solid orangered;
   border-radius: 10px;
 }
 .content {
