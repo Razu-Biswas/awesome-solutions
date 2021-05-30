@@ -15,7 +15,7 @@ const Schedule = () => {
         </div>
         <div className="col-md-6 p-4">
           {/* <p>We promised Best Service Provide Better Improved</p> */}
-          <h2><span className="text-danger">Your Company Best Security</span> And <span className="text-warning">Safety Priority</span></h2>
+          <h2><span className="text-danger">Your Company Best Security</span> <span className="text-success">And </span><span className="text-warning">Safety Priority</span></h2>
           <div
             className=""
             // style={{

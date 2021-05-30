@@ -7,7 +7,7 @@ const ServiceCard = ({service}) => {
             <div className="card p-5 text-center my-2">
                 <h4>{service.title}</h4>
                 <p>{service.desc}</p>
-                <button className="btn btn-outline-danger">Best Work Order</button>
+                <button className="btn btn-outline-danger">Best Work buy Order</button>
             </div>
         </div>
     );

@@ -23,7 +23,7 @@ const Blogs = () => {
       id: 3,
       title: "Cloud computing advantages",
       description:
-        "Cloud computing operates on a similar principle as web-based email clients, allowing users to access all of the features and files of the system without having to keep the bulk of that system on their own computers. Most people already use a variety of cloud computing services without even realizing it. Gmail, Google Drive, and even Facebook and Instagram are all cloud-based applications.",
+        "Cloud computing operates on a similar principle as web-based email clients, allowing users to access all of the features and files of the system without having to keep the bulk of that system on their own computers. Most people already use a variety of cloud computing services without even realizing it. Gmail, Google Drive, and even Facebook .",
       img: cloudComputing,
     },
   ];
@@ -31,7 +31,7 @@ const Blogs = () => {
     <section>
       <div className="container my-5">
         <h2 className="text-brand text-center my-5">
-          <span className="text-danger">You can explore</span> your knowledge <br /> with our<span className="text-warning"> awesome blogs</span>
+          <span className="text-danger">You can explore</span><span className="text-success">your knowledge <br /> with our</span> <span className="text-warning"> awesome blogs</span>
         </h2>
         <div className="row">
           {blogData.map((blog) => (
@@ -40,7 +40,7 @@ const Blogs = () => {
                 style={{ height: "550px" }}
                 className="shadow p-3 mb-5 bg-white rounded"
               >
-                <img src={blog.img} alt="" style={{ width: "100%" }} />
+                <img src={blog.img} alt="" style={{ width: "100%", height:"185px",borderRadius: "10px" }} />
                 <h4 className="text-brand my-3">{blog.title}</h4>
                 <p>{blog.description}</p>
               </div>
