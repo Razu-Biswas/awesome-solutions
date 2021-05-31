@@ -153,7 +153,7 @@ function Login() {
             </form>
             <br />
             <h4 className="or" align="center">
-              Another Option
+              OR Another Option
             </h4>
             <br />
             <div className="d-flex justify-content-center flex-column align-items-center social_signup">
