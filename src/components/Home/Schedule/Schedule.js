@@ -8,7 +8,7 @@ const Schedule = () => {
         <div className="col-md-6 d-flex justify-content-center">
           <img
             src={pic}
-            style={{ height: "400px", width: "90%", borderRadius: "10px"}}
+            style={{ height: "400px", width: "90%", borderRadius: "10px", border: "1px solid orange"}}
             className="mb-5"
             alt=""
           />
