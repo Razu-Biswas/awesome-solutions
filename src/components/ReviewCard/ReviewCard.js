@@ -3,7 +3,7 @@ import './ReviewCard.css';
 
 const ReviewCard = ({ review }) => {
     return (
-        
+
             <div className="col-md-4 col-sm-6 col-12 d-flex justify-content-center">
                 <div className="card p-4 my-2">
                     <div>
@@ -21,7 +21,7 @@ const ReviewCard = ({ review }) => {
 
                 </div>
             </div>
-        
+
     );
 };
 
